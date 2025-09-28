@@ -22,3 +22,22 @@ Theater-Booking-System/
 ├─ database.sql # MySQL database & tables
 └─ README.md # Documentation
 
+
+---
+
+## ⚙️ Prerequisites
+
+- Python 3.8+
+- MySQL Workbench
+- `mysql-connector-python` module
+
+Install the Python dependency:
+
+pip install mysql-connector-python
+
+
+## 📌 Notes
+
+- Ensure that movie_id exists before adding a show (foreign key constraint).
+- You can delete and re-run database.sql if you want to reset the database.
+- MySQL Workbench must be running when you execute the Python script.
